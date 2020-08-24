@@ -1,0 +1,12 @@
+https://support.docusign.com/en/guides/dfs-admin-guide-merge-fields-admin
+
+__________________________________________________________________________________________________________________________________________________________________
+SF CUSTOM BUTTON: //https://support.docusign.com/en/articles/How-to-Create-a-SalesForce-Custom-Button
+
+{!URLFOR('/apex/dsfs__DocuSign_createEnvelope', null,[SourceID = Opportunity.Id,SES='1',SSB='1',OCO = 'Tag',CES='DFM Development Services Proposal - {!Opportunity.Project_Name__c} {!Opportunity.E_Number__c}',CEM='Dear {!Opportunity.Primary_Contact__r.name},\nHere is a proposal for your electronic signature.'
+])}
+__________________________________________________________________________________________________________________________________________________________________
+
+DOCUSIGN BUTTON VARIABLE : https://docs.docusign.com/supportdocs/dfs-admin-guide-v6/Content/admin-guide/review-screen-appearance-and-function.htm
+
+
